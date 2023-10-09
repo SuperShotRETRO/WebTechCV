@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang='en'>
-
-<html>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous"
-  />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
-  ></script>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;700&display=swap");
+    </style>
+  </head>
   <body>
-    <div class="container my-3" style="margin-left: 0px">
+    <header>
       <div class="row">
         <div class="col" style="max-width: 150px">
           <img
@@ -24,430 +27,135 @@
           />
         </div>
         <div class="col">
-          <div class="row"><h1>Swaraj Madhavi</h1></div>
-          <p class="my-1">Navi Mumbai, Maharashtra</p>
-          <p class="my-1">+91 9867294446</p>
-          <p class="my-1">swaraj.m@somaiya.edu</p>
+          <div class="row">
+            <h1 style="font-family: Gabarito; font-weight: 700">
+              Swaraj Madhavi
+            </h1>
+          </div>
+          <p class="my-1" style="font-family: Gabarito; font-weight: 400">
+            Navi Mumbai, Maharashtra
+          </p>
+          <p class="my-1" style="font-family: Gabarito; font-weight: 400">
+            +91 9867294446
+          </p>
+          <p class="my-1" style="font-family: Gabarito; font-weight: 400">
+            swaraj.m@somaiya.edu
+          </p>
         </div>
       </div>
-    </div>
+    </header>
     <hr />
-    <!--About me-->
-    <div class="container" style="margin-left: 0px">
-      <div class="card">
-        <div class="card-header">About me</div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>
-              I'm a nice fun and friendly person, I work well alone but also on
-              in a team. I have a creative mind but I tend to overthink.
+    <div class="container-fluid">
+      <!--About Me-->
+      <div class="container-fluid">
+        <h3 class="row" style="font-family: Gabarito; font-weight: 700">
+          About Me
+        </h3>
+        <p style="font-family: Gabarito; font-weight: 400">
+          I'm a nice fun and friendly person, I work well alone but also on in a
+          team. I have a creative mind but I tend to overthink.
+        </p>
+      </div>
+      <hr />
+      <!--Education-->
+      <div class="container-fluid row">
+        <h3 class="row" style="font-family: Gabarito; font-weight: 700">
+          Education 📚
+        </h3>
+        <hr />
+        <div class="row">
+          <!--SSC-->
+          <div class="col-2">
+            <p style="font-family: Gabarito; font-weight: 500">SSC</p>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>School</strong>- Father Agnel Multipurpose School
             </p>
-          </blockquote>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <div class="container-fluid row">
-      <div class="col" style="max-width: 500px">
-        <!--Education-->
-        <h2>Education</h2>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                SSC
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p><strong>Percentage</strong>- 81%</p>
-                <p>
-                  <strong>School</strong>- Father Agnel Multipurpose School,
-                  Vashi
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                HSC
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p><strong>Stream</strong>- Computer Science</p>
-                <p><strong>Percentage</strong>- 71%</p>
-                <p>
-                  <strong>Junior College</strong>- Father Agnel Juniour College,
-                  Vashi
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                UG Degree
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p>
-                  <strong>Stream</strong>- Bachelors in Computer Applications
-                </p>
-                <p><strong>CGPA</strong>- 8</p>
-                <p>
-                  <strong>College</strong>- S.K. Somaiya College, Vidyavihar
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="vr"></div>
-      <div class="col">
-        <div class="container-fluid">
-          <div class="card" style="width: 1000px; height: 400px">
-            <h2 class="my-2 mx-3">Skills</h2>
-            <div class="row">
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">HTML</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-svg-vector.svg"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">CSS</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">JS</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://e7.pngegg.com/pngimages/439/345/png-clipart-bootstrap-logo-thumbnail-tech-companies.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">Bootstrap</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">React.js</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://w7.pngwing.com/pngs/234/329/png-transparent-python-logo-thumbnail.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">Python</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Dart_logo.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">Dart</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://iconape.com/wp-content/png_logo_vector/flutter-logo.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">Flutter</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card my-3 mx-3" style="height: 80px; width: 160px">
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        class="my-2 mx-1"
-                        src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png"
-                        alt=""
-                        height="50px"
-                        width="50px"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6 class="my-4">C++</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <div class="container-fluid row" style="width: 1100px;">
-      <div class="col" >
-        <!--Hobbies-->
-        <h2>Hobbies</h2>
-        <div class="container">
-          <div id="carouselExample" class="carousel carousel-dark slide">
-            <div class="carousel-inner">
-              <!--Gaming-->
-              <div class="carousel-item active" id="games">
-                <div class="card">
-                  <div class="container-fluid my-2">
-                    <h4>Gaming</h4>
-                    <div class="row">
-                      <div class="col">
-                        <!--Valorant-->
-                        <div class="card" style="width: 18rem; height: 352px">
-                          <iframe
-                            src="https://www.youtube.com/embed/KoeOhaPJywo"
-                            frameborder="0"
-                            style="height: 286px"
-                          ></iframe>
-                          <div class="card-body">
-                            <h5 class="card-title">Valorant</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <!--Soulsbourne-->
-                        <div class="card" style="width: 18rem; height: 352px">
-                          <img src="..." class="card-img-top" alt="..." />
-                          <div class="card-body">
-                            <h5 class="card-title">SoulsBourne</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <!--Destiny-->
-                        <div class="card" style="width: 18rem; height: 352px">
-                          <iframe
-                            src="https://www.youtube.com/embed/1cuVe4L2qcU"
-                            frameborder="0"
-                            style="height: 286px"
-                          ></iframe>
-                          <div class="card-body">
-                            <h5 class="card-title">Destiny</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--Music-->
-              <div class="carousel-item" id="music">
-                <div class="card">
-                  <div class="container-fluid my-2">
-                    <h4>Listening Music</h4>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            style="border-radius: 12px"
-                            src="https://open.spotify.com/embed/track/4nh0aT30hfj3smH6flWU63?utm_source=generator"
-                            width="100%"
-                            height="352"
-                            frameborder="0"
-                            allowfullscreen=""
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                            loading="lazy"
-                          ></iframe>
-                        </div>
-                        <div class="col">
-                          <iframe
-                            style="border-radius: 12px"
-                            src="https://open.spotify.com/embed/track/0cWLJcdvM6QlOQ7UJdB4jb?utm_source=generator&theme=0"
-                            width="100%"
-                            height="352"
-                            frameborder="0"
-                            allowfullscreen=""
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                            loading="lazy"
-                          ></iframe>
-                        </div>
-                        <div class="col">
-                          <iframe
-                            style="border-radius: 12px"
-                            src="https://open.spotify.com/embed/track/0rMeOAvbQZ2RTG4B6L1M4p?utm_source=generator"
-                            width="100%"
-                            height="352"
-                            frameborder="0"
-                            allowfullscreen=""
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                            loading="lazy"
-                          ></iframe>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>Percentage</strong>- 81%
+            </p>
             <button
-              class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-              style="justify-content: start"
+              class="btn btn-dark"
+              style="font-family: Gabarito; font-weight: 400"
             >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-              style="justify-content: end"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
+              Know more about my school life
             </button>
           </div>
+          <div class="vr px-0"></div>
+          <!--HSC-->
+          <div class="col-2">
+            <p style="font-family: Gabarito; font-weight: 500">HSC</p>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>Junior College</strong>- Father Agnel Junior College
+            </p>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>Percentage</strong>- 71%
+            </p>
+            <button
+              type="button"
+              class="btn btn-dark"
+              style="font-family: Gabarito; font-weight: 400"
+            >
+              Know more about my college life
+            </button>
+          </div>
+          <div class="vr px-0"></div>
+          <!--UG-->
+          <div class="col-2">
+            <p style="font-family: Gabarito; font-weight: 500">UG</p>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>College</strong>- S.K. Somaiya College
+            </p>
+            <p style="font-family: Gabarito; font-weight: 400">
+              <strong>C.G.P.A.</strong>- 8
+            </p>
+            <button
+              type="button"
+              class="btn btn-dark"
+              style="font-family: Gabarito; font-weight: 400"
+            >
+              Know more about my college life
+            </button>
+          </div>
+          <div class="vr px-0"></div>
+          <div class="col-lg-5">
+            <img src="school.gif" alt="" width="100%" height="200px" />
+          </div>
         </div>
       </div>
-      <div class="col-sm-1" style="display: block; justify-content: end;" >
-        <img src="./zhongli.gif" alt="" width="200px" style="-webkit-transform: scaleX(-1);">
+      <hr />
+      <!--Projects-->
+      <div class="container-fluid row">
+        <h3 class="row" style="font-family: Gabarito; font-weight: 700">Projects</h3>
+        <hr>
+        <div class="row">
+            <!--Prj-1-->
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-family: Gabarito; font-weight: 700">Handy-Man</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary" style="font-family: Gabarito; font-weight: 500">An android app</h6>
+                      <p class="card-text" style="font-family: Gabarito; font-weight: 700">An app created to find local electrians, plumber, etc quickly</p>
+                      <form action="" target="_blank">
+                      <button type="submit" class="btn btn-dark" style="font-family: Gabarito; font-weight: 400" formaction="https://github.com/SuperShotRETRO/Android-Handy-Man-App">Go to project</button>
+                    </form>
+                    </div>
+                  </div>
+            </div>
+            <!--Prj-2-->
+            <div class="col-2">
+                <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-family: Gabarito; font-weight: 700">News app</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary" style="font-family: Gabarito; font-weight: 500">A react website</h6>
+                      <p class="card-text" style="font-family: Gabarito; font-weight: 700">A website to get your dailt dose of news</p>
+                      <form action="" target="_blank">
+                      <button type="submit" class="btn btn-dark" style="font-family: Gabarito; font-weight: 400" formaction="https://github.com/SuperShotRETRO/newsapp">Go to project</button>
+                    </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
       </div>
     </div>
   </body>
